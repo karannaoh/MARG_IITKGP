@@ -20,7 +20,7 @@ export default class ModalForm extends React.Component {
     super(props);
 
     this.state = {
-      modalIsOpen: true
+      modalIsOpen: false
     };
 
     this.openModal = this.openModal.bind(this);
