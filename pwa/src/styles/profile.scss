@@ -1,0 +1,75 @@
+.profile {
+  padding: 1rem;
+  .user-details {
+    text-align: center;
+    .photo {
+      display: flex;
+      justify-content: center;
+      margin: 2rem 0;
+      img {
+        width: 10rem;
+        height: 10rem;
+        border-radius: 2rem;
+        box-shadow: 0px 20px 20px rgba($color: #542961, $alpha: 0.2);
+      }
+    }
+    h1 {
+      color: $secondary-color;
+      margin: 1rem 0;
+    }
+    h2 {
+      margin: -1rem 0 1rem;
+      color: rgba($color: #000000, $alpha: 0.7);
+    }
+  }
+  .details {
+    display: flex;
+    // justify-content: space-between;
+    margin: 2rem 0;
+    div {
+      width: 50%;
+      h1 {
+        margin: 0 0;
+        font-size: 3.5rem;
+        font-weight: 900;
+        color: $primary-color;
+      }
+      h2 {
+        margin: 0 0 2rem;
+        font-weight: normal;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .reports {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+    .report {
+      width: calc(100vw / 2 - 2rem);
+      border-radius: 1rem;
+      margin: 1rem 0;
+      box-shadow: 0px 10px 20px rgba($color: #586282, $alpha: 0.2);
+      .info {
+        padding: 1rem;
+      }
+      img {
+        width: 100%;
+        border-radius: 16px 16px 0 0;
+        object-fit: cover;
+        height: 10rem;
+      }
+      h1 {
+        margin: 0;
+        font-size: 1.4rem;
+        color: rgba($color: #000000, $alpha: 0.7);
+      }
+      p {
+        margin: 0.5rem 0;
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,128 @@
+.home {
+  .stats {
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 0 0px 20px 20px;
+    box-shadow: 0px 50px 100px rgba($color: #000000, $alpha: 0.1);
+    .story-t {
+      font-size: 1rem;
+      font-weight: bolder;
+      margin-top: -1rem;
+      text-align: center;
+      color: lighten($secondary-color, 10%);
+    }
+    .story-group {
+      margin: 0 -1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .story-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+        .profile {
+          width: 70px;
+          height: 70px;
+          object-fit: cover;
+          border-radius: 1000px;
+          border: 4px solid $primary-color;
+          padding: 2px; // box-shadow: 0px 10px 20px rgba($color: #000000, $alpha: 0.3);
+        }
+
+        h1 {
+          .pos {
+            display: block;
+            font-size: 0.8rem;
+            border-radius: 10rem;
+            color: #fff;
+            padding: 2px 6px;
+            font-weight: bolder;
+            margin-top: -5px;
+          }
+          .pos-0 {
+            background: rgb(244, 185, 96);
+          }
+          .pos-1 {
+            background: rgb(168, 168, 168);
+          }
+          .pos-2 {
+            background: rgb(182, 115, 77);
+          }
+          .text-name {
+            font-weight: normal;
+          }
+          color: $dark;
+          font-size: 1rem;
+          font-weight: normal;
+        }
+      }
+    }
+
+    .thanks {
+      font-weight: 900;
+      color: $secondary-color;
+      .statistics {
+        color: $primary-color;
+      }
+    }
+
+    .details {
+      display: flex;
+      // justify-content: space-between;
+      div {
+        width: 50%;
+        h1 {
+          margin: 0 0;
+          font-size: 3.5rem;
+          font-weight: 900;
+          color: $primary-color;
+        }
+        h2 {
+          margin: 0 0 2rem;
+          font-weight: normal;
+          font-size: 1rem;
+          color: $dark;
+        }
+      }
+    }
+
+    .team {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 2rem 1rem 1.5rem;
+      border-radius: 1rem;
+      background-color: rgba($primary-color, 0.1);
+      .info {
+        h2 {
+          font-size: 0.8rem;
+          font-weight: bold;
+          margin: 0;
+          color: lighten($secondary-color, 20%);
+        }
+        h1 {
+          font-size: 1.8rem;
+          font-weight: bolder;
+          margin: 0;
+          color: $secondary-color;
+        }
+      }
+      .objectives {
+        text-align: right;
+        h2 {
+          font-size: 0.8rem;
+          font-weight: bold;
+          margin: 0;
+          color: lighten($secondary-color, 20%);
+        }
+        h1 {
+          font-size: 3rem;
+          font-weight: bolder;
+          margin: 0;
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+}

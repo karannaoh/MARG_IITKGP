@@ -1,0 +1,34 @@
+.smallmap {
+  position: fixed !important;
+  bottom: -2rem !important;
+  // left: -6rem;
+  z-index: -1;
+  // height: 600px;
+  width: 100vw;
+  object-fit: cover;
+}
+.largeMap {
+  // height: 1000px;
+}
+.ReactModal__Content {
+  overflow: hidden !important;
+  z-index: 4;
+  margin-top: -5rem !important;
+  margin-left: -2rem !important;
+  height: 130vh !important;
+  width: 120vw !important;
+  // inset: ;
+  inset: 42% auto auto 46% !important;
+  .close {
+    width: 6rem;
+    height: 4rem;
+    position: absolute;
+    bottom: 5rem;
+    left: 50%;
+    color: $primary-color;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0px 20px 40px rgba($color: #000000, $alpha: 0.2);
+    border: none;
+  }
+}
